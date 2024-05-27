@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Anza Mukhithi</title>
+    <title>Front-End Developer - Anza Mukhithi</title>
     <meta
     name="description"
-    content="Learn more about Front-end Developer" />
+    content="Anza Mukhithi is a Front-end Developer base in Johannesburg" />
  
     <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -26,7 +26,7 @@
 <body>
   <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Anza's Project</a>
+      <a class="navbar-brand" href="/">Anza's Project</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -49,8 +49,14 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">Contact</a>
+            <a class="nav-link" href="/about.html" title="About Anza Mukhithi">
+              About me </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link"
+            href="/about.html#contact"
+            title="Contact Anza Mukhithi"
+            >Contact me</a>
         </ul>
       </div>
     </div>
@@ -61,13 +67,19 @@
   <h3> Front-end developer, based in Johannesburg</h3>
  
     <div class="navigation-links mb-5">
-      <a href="about.html#contact" class="contact-link">Contact me</a>
+      <a href="/about.html#contact"
+       class="primary-link"
+       title="Contact Anza Mukhithi">Contact me</a>
       <a href="about.html" class="about-link">About me</a>
+      <a href="/about.html" class="secondary-link" title="About Anza Mukhithi">
+        About me </a>
     </div>
 <div class="container">
     <div class="row mt-5">
       <div class="col-sm-6 mb-3">
-        <img src="images/Coding.png" class="img-fluid rounded shadow-sm" />
+        <img src="images/Coding.png" 
+        alt="coding project"
+        class="img-fluid rounded shadow-sm" />
       </div>
 
       <div class="col-sm-6">
@@ -105,14 +117,18 @@
         </button>
       </div>
       <div class="col-6 mb-3">
-        <img src="images/Weather.png" class="img-fluid rounded shadow-sm" />
+        <img src="images/Weather.png"
+        title="weather ptoject"
+         class="img-fluid rounded shadow-sm" />
       </div>
     </div>
   </div>
 <div class="container mb-5">
     <div class="row mt-5">
       <div class="col-6 mb-3">
-        <img src="images/Coding.png" class="img-fluid rounded shadow-sm" />
+        <img src="images/Coding.png" 
+        title="coding project"
+        class="img-fluid rounded shadow-sm" />
       </div>
 
       <div class="col-6">
@@ -125,7 +141,8 @@
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
         </div>
-        <button type="button" class="btn btn-primary mt-3 p-3 shadow-sm">
+        <button type="button" 
+        class="btn btn-primary mt-3 p-3 shadow-sm">
           Launch Coding App
         </button>
       </div>
