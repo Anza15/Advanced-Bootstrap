@@ -93,6 +93,10 @@ p {
     font-size: 48px;
     line-height: 1.5;
   }
+  .img-fluid rounded shadow-sm {
+    max-width:100%;
+  }
+  
 
   h2 {
     font-size: 32px;
